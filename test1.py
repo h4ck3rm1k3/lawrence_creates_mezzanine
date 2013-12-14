@@ -1,0 +1,1 @@
+from django.core.servers.basehttp import get_internal_wsgi_application
