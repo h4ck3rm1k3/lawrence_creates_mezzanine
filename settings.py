@@ -124,8 +124,9 @@ SITE_ID = 1
 USE_I18N = False
 
 # Make these unique, and don't share it with anybody.
-SECRET_KEY = "fd6d7554-545e-4cac-8da0-dd9f18d7e4668adf312e-85b6-4e85-bf84-ae9fe6837dcc85dacea3-4071-447c-baed-4fce6316039e"
-NEVERCACHE_KEY = "a7855c99-702f-4291-b63c-a436d191f38f141ccc5d-e3d1-4edc-927b-d2f95986772a16caa9ea-81c4-4798-8730-3fe0898670a2"
+# and yes I have changed them from these values
+SECRET_KEY = "hide this"
+NEVERCACHE_KEY = "and this"
 
 # Tuple of IP addresses, as strings, that:
 #   * See debug comments, when DEBUG is true
