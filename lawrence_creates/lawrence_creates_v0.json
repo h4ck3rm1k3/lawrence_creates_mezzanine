@@ -261,19 +261,11 @@
     }
 },
 {
-    "pk": "uk5nkgz53l1i3qj3tq0wiv9o5dcdrtmv", 
-    "model": "sessions.session", 
-    "fields": {
-        "expire_date": "2014-01-02T12:53:51.169Z", 
-        "session_data": "Nzc0NDkwYTk5ODZmMzViNDUwYjc4NDA1ZTFjM2FkMzQ2MjFiODY2Zjp7Il9hdXRoX3VzZXJfYmFja2VuZCI6Im1lenphbmluZS5jb3JlLmF1dGhfYmFja2VuZHMuTWV6emFuaW5lQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjF9"
-    }
-},
-{
     "pk": 1, 
     "model": "sites.site", 
     "fields": {
-        "domain": "127.0.0.1:8000", 
-        "name": "Default"
+        "domain": "blog.lawrencecreates.thefr33.com", 
+        "name": "Lawrence Creates"
     }
 },
 {
@@ -413,7 +405,7 @@
         "status": 2, 
         "login_required": false, 
         "updated": null, 
-        "_order": 2, 
+        "_order": 3, 
         "titles": "Contact", 
         "description": "Fill in the form below to get in touch with us.", 
         "parent": null, 
@@ -1348,72 +1340,13 @@
 },
 {
     "pk": 1, 
-    "model": "auth.user", 
+    "model": "core.sitepermission", 
     "fields": {
-        "username": "mdupont", 
-        "first_name": "", 
-        "last_name": "", 
-        "is_active": true, 
-        "is_superuser": true, 
-        "is_staff": true, 
-        "last_login": "2013-12-19T12:53:51.166Z", 
-        "groups": [], 
-        "user_permissions": [], 
-        "password": "pbkdf2_sha256$12000$tdKHqhtBB042$slSh6opNGtHVVHyRGUapr+YKc6SL5pl/gOOjJBZND/A=", 
-        "email": "jamesmikedupont@gmail.com", 
-        "date_joined": "2013-12-19T12:30:19.576Z"
-    }
-},
-{
-    "pk": 1, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 2, 
-        "action_time": "2013-12-19T12:55:28.694Z", 
-        "object_repr": "About", 
-        "object_id": "2", 
-        "change_message": "Changed content and keywords.", 
-        "user": 1, 
-        "content_type": 21
-    }
-},
-{
-    "pk": 2, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 2, 
-        "action_time": "2013-12-19T12:56:05.458Z", 
-        "object_repr": "About", 
-        "object_id": "2", 
-        "change_message": "Changed content, description and keywords.", 
-        "user": 1, 
-        "content_type": 21
-    }
-},
-{
-    "pk": 3, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 2, 
-        "action_time": "2013-12-19T12:56:25.203Z", 
-        "object_repr": "About", 
-        "object_id": "2", 
-        "change_message": "Changed content and keywords.", 
-        "user": 1, 
-        "content_type": 21
-    }
-},
-{
-    "pk": 4, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 3, 
-        "action_time": "2013-12-19T13:04:45.283Z", 
-        "object_repr": "Gallery", 
-        "object_id": "8", 
-        "change_message": "", 
-        "user": 1, 
-        "content_type": 20
+        "user": 2, 
+        "sites": [
+            1
+        ]
     }
 }
+
 ]

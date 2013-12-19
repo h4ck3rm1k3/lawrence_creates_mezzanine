@@ -4,11 +4,13 @@
 ######################
 
 # The following settings are already defined with default values in
+
 # the ``defaults.py`` module within each of Mezzanine's apps, but are
 # common enough to be put here, commented out, for convenient
 # overriding. Please consult the settings documentation for a full list
 # of settings Mezzanine implements:
 # http://mezzanine.jupo.org/docs/configuration.html#default-settings
+
 
 # Controls the ordering and grouping of the admin menu.
 #
