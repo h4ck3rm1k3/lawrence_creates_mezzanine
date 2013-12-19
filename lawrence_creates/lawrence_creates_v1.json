@@ -261,14 +261,6 @@
     }
 },
 {
-    "pk": "uk5nkgz53l1i3qj3tq0wiv9o5dcdrtmv", 
-    "model": "sessions.session", 
-    "fields": {
-        "expire_date": "2014-01-02T12:53:51.169Z", 
-        "session_data": "Nzc0NDkwYTk5ODZmMzViNDUwYjc4NDA1ZTFjM2FkMzQ2MjFiODY2Zjp7Il9hdXRoX3VzZXJfYmFja2VuZCI6Im1lenphbmluZS5jb3JlLmF1dGhfYmFja2VuZHMuTWV6emFuaW5lQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjF9"
-    }
-},
-{
     "pk": 1, 
     "model": "sites.site", 
     "fields": {
