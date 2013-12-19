@@ -261,30 +261,6 @@
     }
 },
 {
-    "pk": "lhfdts0uvx3ijgcjqiwdre1zox7rq39f", 
-    "model": "sessions.session", 
-    "fields": {
-        "expire_date": "2013-12-28T05:41:02.718Z", 
-        "session_data": "MTUxYTU3OTQwYzllYTZhNzI0Nzk1ODdkMGJmZmNlMTY3NGFjZDhlZDqAAn1xAShVEl9hdXRoX3VzZXJfYmFja2VuZHECVS1tZXp6YW5pbmUuY29yZS5hdXRoX2JhY2tlbmRzLk1lenphbmluZUJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1Lg=="
-    }
-},
-{
-    "pk": "ubijhqjaszsbja4hni9pq4xbicu7y2gb", 
-    "model": "sessions.session", 
-    "fields": {
-        "expire_date": "2013-12-28T08:26:38.892Z", 
-        "session_data": "ODc4ZjBlNzQwZmRkZmE0MzhhYjUxOGYyYTFhOGJhYTJmMmVhMThmZDqAAn1xAVgKAAAAdGVzdGNvb2tpZXECWAYAAAB3b3JrZWRxA3Mu"
-    }
-},
-{
-    "pk": "ztj9ao33wtrdm60rxv41bfp5s1vemug6", 
-    "model": "sessions.session", 
-    "fields": {
-        "expire_date": "2013-12-28T05:49:08.388Z", 
-        "session_data": "ODc4ZjBlNzQwZmRkZmE0MzhhYjUxOGYyYTFhOGJhYTJmMmVhMThmZDqAAn1xAVgKAAAAdGVzdGNvb2tpZXECWAYAAAB3b3JrZWRxA3Mu"
-    }
-},
-{
     "pk": 1, 
     "model": "sites.site", 
     "fields": {
@@ -402,10 +378,10 @@
     "fields": {
         "status": 2, 
         "login_required": false, 
-        "updated": null, 
+        "updated": "2013-12-19T12:56:25.197Z", 
         "_order": 0, 
         "titles": "About", 
-        "description": "About us", 
+        "description": "About Lawrence Creates Makerspace Center for Innovation", 
         "parent": null, 
         "title": "About", 
         "short_url": null, 
@@ -413,9 +389,9 @@
         "site": 1, 
         "in_sitemap": true, 
         "keywords_string": "", 
-        "_meta_title": null, 
+        "_meta_title": "", 
         "expiry_date": null, 
-        "publish_date": null, 
+        "publish_date": "2013-12-19T12:55:28Z", 
         "content_model": "richtextpage", 
         "in_menus": "1,2,3", 
         "slug": "about", 
@@ -527,36 +503,10 @@
     }
 },
 {
-    "pk": 8, 
-    "model": "pages.page", 
-    "fields": {
-        "status": 2, 
-        "login_required": false, 
-        "updated": "2013-09-29T11:57:14.288Z", 
-        "_order": 2, 
-        "titles": "Gallery", 
-        "description": "A demo gallery of cities from around the world.", 
-        "parent": null, 
-        "title": "Gallery", 
-        "short_url": null, 
-        "created": null, 
-        "site": 1, 
-        "in_sitemap": true, 
-        "keywords_string": "", 
-        "_meta_title": null, 
-        "expiry_date": null, 
-        "publish_date": "2013-09-29T11:57:14.117Z", 
-        "content_model": "gallery", 
-        "in_menus": "1,2,3", 
-        "slug": "gallery", 
-        "gen_description": true
-    }
-},
-{
     "pk": 2, 
     "model": "pages.richtextpage", 
     "fields": {
-        "content": "<p>About us</p>"
+        "content": "<p><strong>About Lawrence Creates Makerspace Center for Innovation</strong></p>\n<p><strong>We are a community makerspace for the Lawrence Kansas Community Started in May of 2013 and growing every week. Join us for open house on Tuesdays from 7:30pm to 9pm. </strong>Click to email below.</p>\n<p><a class=\"EmbedLink\" href=\"mailto:andersenjo@sbcglobal.net\">WoodShop - Managed by Jo Andersen</a></p>\n<p><a class=\"EmbedLink\" href=\"mailto:reply@frodex.com\">HackLab- Managed by Greg Thompson</a></p>\n<p><a class=\"EmbedLink\" href=\"mailto:versonova@gmail.com\">Design Studio - Managed by Tim Middleton</a></p>\n<p><a class=\"EmbedLink\" href=\"mailto:srkunen@gmail.com\">Lawrence Creates Gallery - Managed By Sarah Kunen</a></p>\n<p><a class=\"EmbedLink\" href=\"mailto:kirkendall1@gmail.com\">Lawrence Creates Founder and Director - Eric Kirkendall</a></p>\n<p>\u00a0</p>\n<p><a href=\"https://www.facebook.com/groups/lawrencecreates/\" target=\"_new\">Visit us on Facebook </a></p>\n<p><a href=\"http://www.meetup.com/Lawrence-Creates-Makerspace/\" target=\"_new\">Visit us on MeetUp</a></p>"
     }
 },
 {
@@ -585,14 +535,6 @@
     "model": "pages.richtextpage", 
     "fields": {
         "content": "<p>Legals</p>"
-    }
-},
-{
-    "pk": 8, 
-    "model": "galleries.gallery", 
-    "fields": {
-        "content": "<p>A demo gallery of cities from around the world.</p>", 
-        "zip_import": ""
     }
 },
 {
@@ -1406,112 +1348,6 @@
         ]
     }
 },
-{
-    "pk": 1, 
-    "model": "blog.blogpost", 
-    "fields": {
-        "related_posts": [], 
-        "short_url": null, 
-        "site": 1, 
-        "keywords_string": "", 
-        "in_sitemap": false, 
-        "featured_image": null, 
-        "title": "Site setup", 
-        "content": "<p>This is Mezzanine <br>http://mezzanine.jupo.org/ an amazing blog</p>", 
-        "rating_sum": 0, 
-        "rating_count": 0, 
-        "categories": [], 
-        "publish_date": "2013-12-14T04:35:00.629Z", 
-        "status": 2, 
-        "updated": "2013-12-14T04:35:07.026Z", 
-        "description": "This is Mezzanine http://mezzanine.jupo.org/ an amazing blog", 
-        "rating_average": 0.0, 
-        "expiry_date": null, 
-        "user": 1, 
-        "slug": "site-setup", 
-        "gen_description": true, 
-        "allow_comments": true, 
-        "created": "2013-12-14T04:35:00.644Z", 
-        "_meta_title": "", 
-        "comments_count": 0
-    }
-},
-{
-    "pk": 1, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 1, 
-        "action_time": "2013-12-14T04:29:41.716Z", 
-        "object_repr": "eric", 
-        "object_id": "2", 
-        "change_message": "", 
-        "user": 1, 
-        "content_type": 3
-    }
-},
-{
-    "pk": 2, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 2, 
-        "action_time": "2013-12-14T04:29:58.102Z", 
-        "object_repr": "eric", 
-        "object_id": "2", 
-        "change_message": "Changed password, is_staff and is_superuser.", 
-        "user": 1, 
-        "content_type": 3
-    }
-},
-{
-    "pk": 3, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 2, 
-        "action_time": "2013-12-14T04:33:35.142Z", 
-        "object_repr": "blog.lawrencecreates.thefre33.com", 
-        "object_id": "1", 
-        "change_message": "Changed domain and name.", 
-        "user": 1, 
-        "content_type": 7
-    }
-},
-{
-    "pk": 4, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 1, 
-        "action_time": "2013-12-14T04:35:00.667Z", 
-        "object_repr": "Site setup", 
-        "object_id": "1", 
-        "change_message": "", 
-        "user": 1, 
-        "content_type": 14
-    }
-},
-{
-    "pk": 5, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 2, 
-        "action_time": "2013-12-14T04:35:07.042Z", 
-        "object_repr": "Site setup", 
-        "object_id": "1", 
-        "change_message": "Changed status.", 
-        "user": 1, 
-        "content_type": 14
-    }
-},
-{
-    "pk": 6, 
-    "model": "admin.logentry", 
-    "fields": {
-        "action_flag": 2, 
-        "action_time": "2013-12-14T05:41:25.278Z", 
-        "object_repr": "blog.lawrencecreates.thefr33.com", 
-        "object_id": "1", 
-        "change_message": "Changed domain.", 
-        "user": 1, 
-        "content_type": 7
-    }
-}
+
+
 ]
